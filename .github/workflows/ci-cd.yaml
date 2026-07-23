@@ -1,7 +1,4 @@
-name: CI/CD Pipeline
-env:
-  owner: Shamoun
-name: CI/CD Pipeline
+name: CI/CD pipeline
 env:
   owner: Shamoun
 run-name: "🛠️ ${{ github.event.head_commit.message }} ${{ env.owner }}"
